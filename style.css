@@ -605,3 +605,307 @@ position: absolute;
     text-decoration: dotted !important;
     
 }
+header .menu {
+    width: 20px;
+    position: relative;
+    left: 300px;
+    display: none;
+}
+@media only screen and (max-width: 756px) {
+    .container {
+        max-width: 740px;
+        margin: 10px; 
+    }
+    section .grad {
+        width: 720px;
+        height: 400px;
+        position: relative;
+    }
+    header {
+        
+    }
+    header a {
+        display: none;
+    }
+    header button {
+        margin-right:  20px;  
+    }
+    .grad h1 {
+        font-size: 25px;
+        position: absolute;
+        top: 70px;
+        left: 40px;
+
+        
+    }
+    .grad span {
+        font-size: 25px;
+    }
+
+    .grad p {
+        font-size: 15px;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+    }
+    .phone {
+        position: absolute;
+        left: 400px;
+        top: 150px;
+        width: 300px;
+        border-radius: 0 0 55px 0;
+    }
+    .grad .yulduz {
+        position: absoluteto;
+        top: 150px;
+        left: 630px;
+        width: 100px;
+    }
+    .grad .choynak {
+        width: 70px;
+        position: absolute;
+        top: 300px;
+        left: 380px;
+    }
+    .grad .shashlik {
+        position: absolute;
+        top: 180px;
+        left: 380px;
+        width: 70px;
+    }
+    .two-sect div {
+        display: flex;
+        gap: 0px;
+        width: 0px;
+        margin-top: -60px;
+        margin-left: -90px;
+    }
+    .two-sect div img {
+        width: 70px;
+        margin-left: -52px;
+    }
+    header .menu {
+        display: flex;
+        position: absolute;
+        left: 490px;
+        top: 20px;
+    }
+    header select {
+        width: 50px;
+        height: 40px;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width:756px) {
+    .three-sect {
+        position: relative;
+    }
+    .three-sect h2 {
+        font-size: 20px;
+        position: relative;
+        top: -50px;
+    }
+    .three-sect p {
+        font-size: 10px;
+        position: relative;
+        top: -60px;
+    }
+    .three-sect .taom img {
+        width: 70px;
+        position: relative;
+        top: -50px;
+    }
+}
+@media only screen and (max-width:756px) {
+    .four-sect {
+        width: 720px;
+        height: 400px;
+        position: relative;
+    }
+    .four-sect h2 {
+        font-size: 25px;
+        position: absolute;
+        top: 70px;
+        left: 30px;
+    } 
+    .four-sect p {
+        font-size: 13px;
+        position: absolute;
+        top: 130px;
+        left: 30px;
+    }
+    .four-sect .playmarket {
+        width: 140px;
+        height: 40px;
+        position: relative;
+        left: 40px;
+        top: 270px;
+    }
+    .four-sect .playmarket p, b {
+        font: 5px;
+        display: none;
+    }
+    .four-sect .playmarket img {
+        width: 20px;
+        position: absolute;
+        top: 10px;
+
+    }
+    .four-sect .playmarket .yukla {
+        font-size: 15px;
+        color: var(--kok-color);
+        font-style: italic;
+        font-weight: 700;
+        position: absolute;
+        top: 10px;
+        left: 50px;
+    }
+    .four-sect .appstore {
+         width: 140px;
+        height: 40px;
+        position: relative;
+        left: 40px;
+    }
+    .four-sect .appstore p,b {
+        display: none;
+    }
+    .four-sect .appstore img {
+         width: 20px;
+        position: absolute;
+        top: 6px;
+    }
+    .four-sect .appstore i {
+         font-size: 15px;
+        color: var(--kok-color);
+        font-style: italic;
+        font-weight: 700;
+        position: absolute;
+        top: 10px;
+        left: 50px;
+    }
+    .four-sect .iphone {
+        position: absolute;
+        top: 180px;
+        left: 500px;
+        width: 150px;
+        height: 220px;
+
+    }
+    .four-sect .card {
+        position: absolute;
+        top: 180px;
+        left: 470px;
+        width: 200px;
+        height: 100px;
+    }
+    .four-sect .iteam {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 300px;
+        left: 450px;
+    }
+}
+@media only screen and (max-width:756px) {
+    .fiwe-sect div h2 {
+        font-size: 20px;
+        position: relative;
+        top: -50px;
+    }
+    .fiwe-sect p {
+        font-size: 13px;
+        margin-top: -15px;
+        position: absolute;
+        top: 60px;
+        
+    }
+    .fiwe-sect .buyurtma b {
+        display: flex;
+        font-size: 15px;
+        position: absolute;
+        top: 10px;
+    }
+    .fiwe-sect .buyurtma {
+        position: relative;
+        left: -120px;
+        width: 520px;
+        top: -40px;
+        margin-top: -2px;
+        
+    }
+    .fiwe-sect .buyurtma img {
+        width: 60px;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+} 
+@media only screen and (max-width:756px) {
+    .six-sect {
+        position: relative;
+        
+    }
+    .six-sect .biz {
+    font-size: 20px;
+        position:relative;
+        top: -100px;
+        left: -320px;
+        
+    }
+    .six-sect .hamkor {
+        position:relative;
+        top: -100px;
+        width: 355px;
+        height: 250px;
+    }
+    .six-sect .kuryer {
+        position: relative;
+        top: -100px;
+        margin-left: -10px;
+        width: 355px;
+    }
+    .six-sect .hamkor h2 {
+        font-size: 20px;
+        left: 20px;
+        top: 40px;
+    }
+    .six-sect p {
+        font-size: 13px;
+        position: relative;
+        top:80px;
+        left: 20px;
+    }
+    .hamkor-btn {
+        width: 100px;
+        height: 30px;
+        left: 20px;
+    }
+    .hamkor img {
+        position:relative;
+        left: 200px;
+        top: 100px;
+        width: 100px;
+    }
+    .kuryer h2{
+        font-size: 20px;
+        left: 20px;
+        top: 40px;
+    }
+    .kuryer {
+        position:relative;
+        top: -100px;
+        width: 355px;
+        height: 250px;
+    }
+    .kuryer img{ 
+         top: 110px;
+         left: 230px;
+         width: 100px;
+    }
+    .kuryer button {
+        width: 100px;
+        height: 30px;
+        left: 20px;
+    }
+    
+}
